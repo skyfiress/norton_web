@@ -16,6 +16,9 @@ const submit = () => {
     <div class="header shadow  flex items-center">
       <div class="content flex items-center justify-between flex-1">
         <h1 class="text-xl font-bold">Norton</h1>
+        <div class="right">
+
+        </div>
       </div>
     </div>
 
@@ -127,7 +130,7 @@ const submit = () => {
         <hr class="text-[#eee] mt-10">
         <div class="copyright mt-10 text-white pb-10">
           <div>
-            © 2024 Norton, all rights reserved
+            © 2024 THIRTIES ROOM. COMPANY LIMITED, all rights reserved
           </div>
         </div>
       </div>
