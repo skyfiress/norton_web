@@ -8,16 +8,16 @@ const submit = () => {
   email.value = ''
   alert('success');
 }
-
+// https://glassnode.com/
 </script>
 
 <template>
   <main>
     <div class="header shadow  flex items-center">
       <div class="content flex items-center justify-between flex-1">
-        <h1 class="text-xl font-bold">Norton</h1>
-        <div class="right">
-
+        <h1 class="text-xl font-bold">Norton Fund</h1>
+        <div class="right text-lg text-blue-500">
+          <a href="https://norton.im/download/android">App下载</a>
         </div>
       </div>
     </div>
@@ -75,13 +75,13 @@ const submit = () => {
             </div>
           </div>
           <div class="right xl:p-6 xl:w-1/2">
-            <img src="@/assets/images/chains.webp" alt="" >
+            <img src="@/assets/images/chains.webp" alt="">
           </div>
         </div>
 
         <div class="view view2 xl:items-center">
           <div class="left xl:p-6 xl:w-1/2">
-            <img src="@/assets/images/graphs-en.webp" alt="" >
+            <img src="@/assets/images/graphs-en.webp" alt="">
           </div>
           <div class="right xl:w-1/2 xl:flex-shrink-0 xl:p-6">
             <div class="title1 text-2xl font-semibold  py-8 mt-8 leading-tight">
@@ -111,10 +111,10 @@ const submit = () => {
     </div>
 
     <div class="section bg-[#f7f8fa]">
-        <div class="card">
-          <div class="title">Get access to Norton</div>
-          <div class="sub-title mt-4">Take the next step and discover the power of blockchain intelligence.</div>
-        </div>
+      <div class="card">
+        <div class="title">Get access to Norton</div>
+        <div class="sub-title mt-4">Take the next step and discover the power of blockchain intelligence.</div>
+      </div>
     </div>
 
     <footer class="footer">
@@ -125,6 +125,13 @@ const submit = () => {
           <div class="input flex my-2">
             <input type="text" class="input" placeholder="Enter your email" v-model="email">
             <button type="button" class="btn" @click="submit">submit</button>
+          </div>
+        </div>
+        <div class="subscribe" style="margin-top: 20px">
+          <div class="text-2xl font-semibold mb-2 text-white">Contact Us</div>
+          <div class="my-2 text-white">Ask questions and request support</div>
+          <div class="my-2 text-blue-500">
+            <a href="mailto:norton@nt-fund.com">norton@nt-fund.com</a>
           </div>
         </div>
         <hr class="text-[#eee] mt-10">
@@ -167,6 +174,7 @@ const submit = () => {
   font-size: 32px;
   font-weight: 600;
 }
+
 .sub-title {
   color: rgb(90, 90, 90);
 }
@@ -182,6 +190,7 @@ const submit = () => {
   .title2 {
     color: rgb(90, 90, 90);
   }
+
   .icons {
     color: rgb(90, 90, 90);
   }
@@ -229,7 +238,7 @@ const submit = () => {
       font-size: .875rem;
       line-height: 1.3;
       text-align: center;
-      transition: all .2s cubic-bezier(.645,.045,.355,1);
+      transition: all .2s cubic-bezier(.645, .045, .355, 1);
       border-radius: 0 .125rem .125rem 0;
       padding: .6rem 1rem;
       color: #333;
